@@ -55,8 +55,8 @@ document.querySelectorAll(".drum")[i].addEventListener("click", function() {
               var audio= new Audio("sounds/kick-bass.mp3");
               audio.play();
               break;
-        case "l":
-              var audio= new Audio("sounds/snare.mp3");
+        case "m":
+              var audio= new Audio("sounds/meow.mp3");
               audio.play();
               break;             
 
@@ -78,3 +78,4 @@ document.querySelectorAll(".drum")[i].addEventListener("click", function() {
             activeButton.classList.remove("pressed");
       }, 200);
    }
+
